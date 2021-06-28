@@ -4,12 +4,16 @@ body{
     position: relative;
 }
 .Header{
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  .player-wrapper {
     position: relative;
+    padding-top: 35.6%; /* Player ratio: 100 / (1280 / 720) */
+    filter: brightness(0.6);
+    .react-player {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
     .titles{
         position: absolute;
         top: 50%;
