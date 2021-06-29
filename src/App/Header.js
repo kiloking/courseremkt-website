@@ -8,16 +8,17 @@ function Header() {
           className="react-player"
           url={process.env.PUBLIC_URL + '/images/keyvisual_video.mp4'}
           playing
+          muted
           loop
           width='100%'
           height='100%'
-        
+          border='0'
         />
       </div>
         
       
       <div className="titles">
-        <img src={process.env.PUBLIC_URL + '/images/header1.png'} alt=""/>
+        <img src={process.env.PUBLIC_URL + '/images/top.png'} alt=""/>
       </div>
       
     </div>
