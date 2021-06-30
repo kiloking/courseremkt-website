@@ -14,6 +14,10 @@ function Note() {
           <li>若有變更將依夢想動畫 Facebook 粉絲頁公告為準。</li>
 
         </ul>
+        <ul className="socialList">
+          <li><a href="/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/images/fb.png'} alt=""/></a></li>
+          <li><a href="/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/images/ig.png'} alt=""/></a></li>
+        </ul>
       </div>
     </div>
   )

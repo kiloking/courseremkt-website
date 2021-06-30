@@ -18,8 +18,11 @@ function Header() {
         
       
       <div className="titles">
-        <img src={process.env.PUBLIC_URL + '/images/top.png'} alt=""/>
+        <img src={process.env.PUBLIC_URL + '/images/top.png'} alt="" className="pcShow"/>
+        <img src={process.env.PUBLIC_URL + '/images/mobiletop.png'} alt="" className="mobileShow"/>
+
       </div>
+
       
     </div>
   )

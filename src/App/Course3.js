@@ -3,21 +3,22 @@ import React from 'react'
 function Course3() {
   return (
     <div className="course course3">
-      <div className="bgElement bgElement3">
+      {/* <div className="bgElement bgElement3">
         <img src={process.env.PUBLIC_URL + '/images/bg_3.png'} alt=""/>
-      </div>
+      </div> */}
       <div className="container">
         <div className="doubleContentTitleImg">
-          <img src={process.env.PUBLIC_URL + '/images/lesson_title_nu.png'} alt="Nuke 合成前進" className="title" />
+          <img src={process.env.PUBLIC_URL + '/images/lesson_title_nu.png'} alt="Nuke 合成前進" className="title pcShow" />
+          <img src={process.env.PUBLIC_URL + '/images/mobilesson_title_nu.png'} alt="Nuke 合成前進" className="title mobileShow" />
         </div>
         
         <div className="doubleContent">
           <div className="left">
             <div className="albumGif" style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/images/lesson_frame.png'})`}}>
-              <img src={process.env.PUBLIC_URL + '/gif/AE/01.gif'} alt=""/>
+              <img src={process.env.PUBLIC_URL + '/gif/MP/01.jpg'} alt=""/>
             </div>
             <div className="albumGif marginTop" style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/images/lesson_frame.png'})`}}>
-              <img src={process.env.PUBLIC_URL + '/gif/AE/01.gif'} alt=""/>
+              <img src={process.env.PUBLIC_URL + '/gif/MP/01.gif'} alt=""/>
             </div>
           </div>
           <div className="right">

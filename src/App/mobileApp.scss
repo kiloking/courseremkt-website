@@ -1,0 +1,190 @@
+@media (max-width: 480px) {
+  .mobiDesc{
+    display: block;
+    background: #1f004e;
+    padding:20px 20px;
+    img{
+      width: 100%;
+    }
+  }
+  .Header{
+    .player-wrapper{
+      padding-top: 72.6%;
+    }
+    .titles{
+      width: 100%;
+      img.pcShow{ display: none;}
+      img.mobileShow{display: inline;}
+    }
+    
+  }
+  .About{
+    .content{
+      width: 90%;
+      height: 531px;
+      .up{
+        margin-bottom: 25px;
+        .left{
+          width: 45%;
+          transform: translateX(-30px);
+          margin-bottom: 5%;
+          img.iconArrow{
+            width: 30%;
+          }  
+          img{
+            width: 100%;
+          }
+        }
+        .right{
+          width: 60%;
+          margin-top: 00px;
+          img{
+            width: 100%;
+          }
+          .desc{
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 20px;
+            margin-top: 10px;
+            padding-left: 20px;
+          }
+        }
+      }
+      .down{
+        .left{
+          width: 50%;
+          .titleImg2{
+            width: 170%;
+            margin-right: -118px;
+          }
+          .desc{
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 20px;
+            margin-top: 10px;
+            padding-right: 15px;
+          }
+        }
+        .right{
+          width: 40%;
+          img{
+            width: 100%;
+          }
+          .iconArrow{
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+  .course{
+    .container{
+      width: 90%;
+
+      .doubleContentTitleImg{
+        padding-top: 39px;
+        img{
+          width: 100%;
+        }
+        img.pcShow{ display: none;}
+        img.mobileShow{display: inline;}
+
+      }
+      .doubleContent{
+        flex-direction: column;
+        padding-top: 29px;
+        .left{
+          width: 100%;
+          display: flex;
+          .albumGif{
+            width: 50%;
+            min-height: 120px;
+            img{
+              padding: 5px 5px 5px 5px;
+            }
+          }
+          .marginTop{
+            margin-top: 0;
+            margin-left: 5px;
+          }
+        }
+        .right{
+          width: 100%;
+          padding-left: 0px;
+          .rSpec{
+            .title{
+              .text{
+                font-size: 18px;
+              }
+            }
+            .desc{
+              font-size: 16px;
+              padding-right: 15px;
+            }
+            .goLink{
+              padding-left: 0px;
+              text-align: center;
+              display: flex;
+              justify-content: center;
+              img{
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+    .lessonLine{
+      img{
+        width: 100%;
+      }
+    }
+    
+  }
+  .discountNow{
+    padding: 40px 20px;
+    .container{
+      width: 90%;
+      .title{
+        img{
+          width: 100%;
+        }
+      }
+      .cardList{
+        justify-content: center;
+      }
+    }
+  }
+  .gallery{
+    .container{
+      width: 90%;
+      .title{
+        img{width: 100%;}
+      }
+    }
+  }
+  .note{
+    .container{
+      .title{
+        img{
+          width: 50%;
+        }
+      }
+      .list{
+        font-size: 15px; 
+        li{
+          height: 50px;
+        }
+      }
+    }
+  }
+  .para{
+    .arrow{
+      img{
+        width: 50%;
+      }
+    }
+  }
+  
+
+}

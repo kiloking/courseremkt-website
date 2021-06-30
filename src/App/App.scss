@@ -4,7 +4,7 @@ body{
     position: relative;
     font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
 }
-
+.mobiDesc{display: none;}
 /*Header 背景影片 網頁標題*/ 
 .Header{
   position: relative;
@@ -32,6 +32,8 @@ body{
           width: 100%;  
           height: auto;
         }
+        img.pcShow{ display: inline;}
+        img.mobileShow{display: none;}
     }
 }
 
@@ -107,8 +109,8 @@ body{
 /*課程*/ 
 .course{
   position: relative;
-  background: #160042;
-  z-index: 1;
+  // background: #160042;
+  z-index: 2;
   .bgElement{
     position: absolute;
     z-index: -10;
@@ -117,9 +119,12 @@ body{
   .container{
     width: 70%;
     margin: 0 auto;
+    z-index: 3;
     .doubleContentTitleImg{
       text-align: center;
       padding-top: 59px;
+      img.pcShow{ display: block;}
+      img.mobileShow{display: none;}
     }
   }
   .doubleContent{
@@ -219,9 +224,6 @@ body{
     left:0;
     bottom:0;
   }
-}
-.course1{
-
 }
 
 /***YOTTA列表***/ 
@@ -345,13 +347,30 @@ body{
 /****Gallery***/ 
 .gallery {
   background: #000;
+  padding-bottom: 40px;
   .container{
     width: 70%;
     margin: 0 auto;
   }
   .title{
-    text-align: center;
-    // margin-bottom: 40px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-top: 40px;
+  }
+  .galleryVideo{
+    .gallery-wrapper {
+      position: relative;
+      padding-top: 57%; /* Player ratio: 100 / (1280 / 720) */
+  
+      .gallery-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+        video{
+          object-fit: cover;
+        }
+      }
+    }
   }
 }
 /***Note***/ 
@@ -374,8 +393,173 @@ body{
     font-weight: 800;
     display: table;
     margin: 0 auto;
+    padding-left: 0;
     li{
       height:40px;
     }
+  }
+  ul.socialList{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li:first-child{
+      margin-right: 20px;
+    }
+  }
+}
+
+
+/**Parallax**/ 
+.para{
+  position: relative;
+  background: #160042;
+  overflow: hidden;
+  padding-bottom: 40px;
+  .bgElement{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+    img{
+      width: 100%;
+    }
+    
+    
+  }
+  .bgElement1{
+    top:5%;
+  }
+  .bgElement2{
+    top:30%;
+    right:0%;
+  }
+  .bgElement3{
+    top:54%;
+    left:5%;
+  }
+  .bgElement4{
+    top:85%;
+    left:0%;
+
+  }
+  .arrow{
+    position: absolute;
+    z-index: 2;
+    img{
+      width:100%;
+    }
+  }
+  .arrow4{
+    top: 3%;
+    left: 10%;
+    width: 120px;
+  }
+  .arrow4-2{
+    top: 13%;
+    right: -1%;
+    width: 80px;
+  }
+  .arrow4-3{
+    top: 50%;
+    right: 10%;
+    width: 120px;
+  }
+  .arrow2{
+    top: 5%;
+    right: 10%;
+    width: 150px;
+  }
+  .arrow2-2{
+    top: 20%;
+    right: 30%;
+    width: 200px;
+  }
+  .arrow2-3{
+    top: 30%;
+    left: 5%;
+    width: 250px;
+  }
+  .arrow2-4{
+    top: 40%;
+    right: 5%;
+    width: 180px;
+  }
+  .arrow2-5{
+    top: 45%;
+    left: 5%;
+    width: 250px;
+  }
+  .arrow2-6{
+    top: 60%;
+    right: 5%;
+    width: 200px;
+  }
+  .arrow2-7{
+    top: 70%;
+    left: 5%;
+    width: 250px;
+  }
+  .arrow2-8{
+    top: 75%;
+    right: 5%;
+    width: 200px;
+  }
+  .arrow2-9{
+    top: 80%;
+    left: 5%;
+    width: 250px;
+  }
+  .arrow2-10{
+    bottom: 5%;
+    left: 0%;
+    width: 150px;
+  }
+  
+  .arrow3{
+    top: 25%;
+    left: -1%;
+    width: 120px;
+  }
+  .arrow3-2{
+    top: 35%;
+    left: 55%;
+    width: 120px;
+  }
+  .arrow3-3{
+    top: 65%;
+    right: -1%;
+    width: 120px;
+  }
+  
+  .arrow5{
+    bottom: 5%;
+    right: 10%;
+    width: 150px;
+  }
+  .arrow5-2{
+    bottom: 25%;
+    left: 10%;
+    width: 150px;
+  }
+  .arrow5-3{
+    bottom: 65%;
+    right: 10%;
+    width: 80px;
+  }
+  .arrow6{
+    top: 15%;
+    left: 8%;
+    width: 150px;
+  }
+  .arrow6-2{
+    top: 8%;
+    right: 8%;
+    width: 100px;
+  }
+  .arrow6-3{
+    bottom: 3%;
+    left: 3%;
+    width: 120px;
   }
 }

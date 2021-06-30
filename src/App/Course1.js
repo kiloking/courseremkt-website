@@ -3,18 +3,21 @@ import React from 'react'
 function Course1() {
   return (
     <div className="course course1">
+
+      {/*      
       <div className="bgElement bgElement1">
         <img src={process.env.PUBLIC_URL + '/images/bg_1.png'} alt=""/>
-      </div>
+      </div> */}
       <div className="container">
         <div className="doubleContentTitleImg">
-          <img src={process.env.PUBLIC_URL + '/images/lesson_title_ae.png'} alt="AE合成" className="title" />
+          <img src={process.env.PUBLIC_URL + '/images/lesson_title_ae.png'} alt="AE合成" className="title pcShow" />
+          <img src={process.env.PUBLIC_URL + '/images/mobilesson_title_ae.png'} alt="AE合成" className="title mobileShow" />
         </div>
         
         <div className="doubleContent">
           <div className="left">
             <div className="albumGif" style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/images/lesson_frame.png'})`}}>
-              <img src={process.env.PUBLIC_URL + '/gif/AE/01.gif'} alt=""/>
+              <img src={process.env.PUBLIC_URL + '/gif/AE/01.jpg'} alt=""/>
             </div>
             <div className="albumGif marginTop" style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/images/lesson_frame.png'})`}}>
               <img src={process.env.PUBLIC_URL + '/gif/AE/01.gif'} alt=""/>
