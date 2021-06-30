@@ -19,9 +19,11 @@
     
   }
   .About{
+    height: auto;
+    padding-bottom: 20px;
     .content{
       width: 90%;
-      height: 531px;
+      
       .up{
         margin-bottom: 25px;
         .left{
@@ -87,7 +89,7 @@
           width: 100%;
         }
         img.pcShow{ display: none;}
-        img.mobileShow{display: inline;}
+        img.mobileShow{display: block;}
 
       }
       .doubleContent{
