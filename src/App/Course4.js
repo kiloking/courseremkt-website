@@ -15,10 +15,10 @@ function Course4() {
         <div className="doubleContent">
           <div className="left">
             <div className="albumGif" style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/images/lesson_frame.png'})`}}>
-              <img src={process.env.PUBLIC_URL + '/gif/nuke/01.jpg'} alt=""/>
+              <img src={process.env.PUBLIC_URL + '/gif/MP/01.jpg'} alt=""/>
             </div>
             <div className="albumGif marginTop" style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/images/lesson_frame.png'})`}}>
-              <img src={process.env.PUBLIC_URL + '/gif/nuke/01.gif'} alt=""/>
+              <img src={process.env.PUBLIC_URL + '/gif/MP/01.gif'} alt=""/>
             </div>
           </div>
           <div className="right">
@@ -54,12 +54,12 @@ function Course4() {
                 用專案帶你熟悉業界的繪景工作流程，順利與影像產業接軌。
               </div>
               <div className="goLink buy">
-                <a href='http://google.com' target="_blank" rel="noreferrer">
+                <a href='https://www.yottau.com.tw/course/intro/930#intro' target="_blank" rel="noreferrer" name="課程連結-了解MP課程" title="課程連結-了解MP課程">
                   <img src={process.env.PUBLIC_URL + '/images/lesson_buy.png'} alt=""/>
                 </a>
               </div>
               <div className="goLink article">
-                <a href="/">
+                <a href="https://medium.com/moonshinevfx/matte-paint-intro-b068d5d985eb" target="_blank" rel="noreferrer" name="文章-認識數位繪景" title="文章-認識數位繪景">
                   <img src={process.env.PUBLIC_URL + '/images/lesson_more_mp.png'} alt=""/>
                 </a>
                 

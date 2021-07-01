@@ -58,7 +58,7 @@ function DiscountNow() {
                 return(
                   <div className="card" key={d.id}>
                     <div className="cover">
-                      <a href={d.link} target="_blank" rel="noreferrer">
+                      <a href={d.link} target="_blank" rel="noreferrer" name={'課程連結-'+ d.title}>
                         <img src={process.env.PUBLIC_URL + '/yotta/'+ d.cover} alt=""/>
                       </a>
                     </div>

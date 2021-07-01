@@ -54,12 +54,12 @@ function Course2() {
                   若你本來使用它軟體做特效，改用 Houdini 的自由度絕對超越想像。
                 </div>
                 <div className="goLink buy">
-                  <a href='http://google.com' target="_blank" rel="noreferrer">
+                  <a href='https://www.yottau.com.tw/course/intro/774#intro' target="_blank" rel="noreferrer" name="課程連結-了解Houdini課程" title="課程連結-了解Houdini課程">
                     <img src={process.env.PUBLIC_URL + '/images/lesson_buy.png'} alt=""/>
                   </a>
                 </div>
                 <div className="goLink article">
-                  <a href="/">
+                  <a href="https://medium.com/moonshinevfx/%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%83%B3%E6%88%90%E7%82%BA%E7%89%B9%E6%95%88%E5%B8%AB-29b314719c4a?source=---------14-----------------------" target="_blank" rel="noreferrer" name="文章-如果你想成為特效師" title="文章-如果你想成為特效師"> 
                     <img src={process.env.PUBLIC_URL + '/images/lesson_more_ho.png'} alt=""/>
                   </a>
                   

@@ -56,12 +56,12 @@ function Course1() {
                 即將畢業身為美感獨到的設計人，想學習合成技術，為技能加值，往影視、動畫產業邁進即將畢業
               </div>
               <div className="goLink buy">
-                <a href='http://google.com' target="_blank" rel="noreferrer">
+                <a href='https://www.yottau.com.tw/course/intro/852#intro' target="_blank" rel="noreferrer" name="課程連結-了解AE課程" title="課程連結-了解AE課程">
                   <img src={process.env.PUBLIC_URL + '/images/lesson_buy.png'} alt=""/>
                 </a>
               </div>
               <div className="goLink article">
-                <a href="/">
+                <a href="https://medium.com/moonshinevfx/compositing-bc273c3237d0" target="_blank" rel="noreferrer" name="文章-如果你想成為合成師" title="文章-如果你想成為合成師">
                   <img src={process.env.PUBLIC_URL + '/images/lesson_more_ae.png'} alt=""/>
                 </a>
                 

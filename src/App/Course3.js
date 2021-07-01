@@ -15,10 +15,10 @@ function Course3() {
         <div className="doubleContent">
           <div className="left">
             <div className="albumGif" style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/images/lesson_frame.png'})`}}>
-              <img src={process.env.PUBLIC_URL + '/gif/MP/01.jpg'} alt=""/>
+              <img src={process.env.PUBLIC_URL + '/gif/nuke/01.jpg'} alt=""/>
             </div>
             <div className="albumGif marginTop" style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/images/lesson_frame.png'})`}}>
-              <img src={process.env.PUBLIC_URL + '/gif/MP/01.gif'} alt=""/>
+              <img src={process.env.PUBLIC_URL + '/gif/nuke/01.gif'} alt=""/>
             </div>
           </div>
           <div className="right">
@@ -54,12 +54,12 @@ function Course3() {
                 如果你本來是 AE 或其他合成軟體的使用者，想增加工作技能，那麼這堂課可以讓你快速上手。
               </div>
               <div className="goLink buy">
-                <a href='http://google.com' target="_blank" rel="noreferrer">
+                <a href='https://www.yottau.com.tw/course/intro/717#intro' target="_blank" rel="noreferrer" name="課程連結-了解Nuke課程" title="課程連結-了解Nuke課程">
                   <img src={process.env.PUBLIC_URL + '/images/lesson_buy.png'} alt=""/>
                 </a>
               </div>
               <div className="goLink article">
-                <a href="/">
+                <a href="http://bit.ly/2zNKQGR"  target="_blank" rel="noreferrer" name="文章-為什麼好萊塢電影都用 Nuke 合成？以及合成軟體的差異" title="文章-為什麼好萊塢電影都用 Nuke 合成？以及合成軟體的差異">
                   <img src={process.env.PUBLIC_URL + '/images/lesson_more_nu.png'} alt=""/>
                 </a>
                 
