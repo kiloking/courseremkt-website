@@ -13,9 +13,7 @@ function Gallery() {
               className="gallery-player"
               url='https://vimeo.com/388147374'
               // playing
-
               controls
-              light={process.env.PUBLIC_URL + '/images/videopreview1.jpg'}
               width='100%'
               height='100%'
             />
