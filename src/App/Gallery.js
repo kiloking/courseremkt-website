@@ -11,10 +11,11 @@ function Gallery() {
           <div className="gallery-wrapper">
             <ReactPlayer 
               className="gallery-player"
-              url='https://vimeo.com/388151269'
+              url='https://vimeo.com/388147374'
               // playing
+
               controls
-              light
+              light={process.env.PUBLIC_URL + '/images/videopreview1.jpg'}
               width='100%'
               height='100%'
             />
