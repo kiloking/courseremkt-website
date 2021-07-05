@@ -6,7 +6,7 @@ function Header() {
       <div className="player-wrapper">
         <ReactPlayer 
           className="react-player"
-          url={process.env.PUBLIC_URL + '/images/keyvisual_video.mp4'}
+          url='https://www.youtube.com/watch?v=Tc-FRauhCg0'
           playing
           muted
           loop
