@@ -15,8 +15,8 @@ function Note() {
 
         </ul>
         <ul className="socialList">
-          <li><a href="/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/images/fb.png'} alt=""/></a></li>
-          <li><a href="/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/images/ig.png'} alt=""/></a></li>
+          <li><a href="https://www.facebook.com/MoonShineAnimation" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/images/fb.png'} alt=""/></a></li>
+          <li><a href="https://www.instagram.com/moonshine.tw/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/images/ig.png'} alt=""/></a></li>
         </ul>
       </div>
     </div>

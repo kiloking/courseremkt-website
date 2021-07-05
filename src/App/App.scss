@@ -12,6 +12,7 @@ body{
     position: relative;
     padding-top: 35.6%; /* Player ratio: 100 / (1280 / 720) */
     filter: brightness(0.6);
+    pointer-events: none;
 
     .react-player {
       position: absolute;
