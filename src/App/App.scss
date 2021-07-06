@@ -8,6 +8,9 @@ body{
 /*Header 背景影片 網頁標題*/ 
 .Header{
   position: relative;
+  background: #1f023c;
+  .player-wrapper.pcShow{display: block;}
+  .miboBg.mobileShow{display: none;}
   .player-wrapper {
     position: relative;
     padding-top: 35.6%; /* Player ratio: 100 / (1280 / 720) */
@@ -18,8 +21,14 @@ body{
       position: absolute;
       top: 0;
       left: 0;
+      iframe {
+        height: 100% !important;
+      }
       video{
         object-fit: cover;
+      }
+      div{
+        position: absolute;
       }
     }
   }

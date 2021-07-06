@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 function Header() {
   return (
     <div className="Header">
-      <div className="player-wrapper">
+      <div className="player-wrapper pcShow">
         <ReactPlayer 
           className="react-player"
           url='https://www.youtube.com/watch?v=Tc-FRauhCg0'
@@ -13,7 +13,15 @@ function Header() {
           width='100%'
           height='100%'
           border='0'
+          config={{ playerVars: { showinfo: 0 } }} 
         />
+      </div>
+      <div 
+        className="miboBg mobileShow" 
+        style={{backgroundImage: `url('${process.env.PUBLIC_URL}/images/banner.png')`}}
+      
+      >
+
       </div>
         
       

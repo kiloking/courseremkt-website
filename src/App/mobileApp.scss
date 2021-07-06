@@ -8,6 +8,15 @@
     }
   }
   .Header{
+    .player-wrapper.pcShow{display: none;}
+    .miboBg.mobileShow{
+      display: block;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 268px;
+      width: 100%;
+    }
     .player-wrapper{
       padding-top: 72.6%;
     }
